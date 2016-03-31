@@ -1,0 +1,135 @@
+
+$trescien:300ms;
+$veinte:20%;
+$diez:10%;
+$cinco:5%;
+$gris:#a6a6a6;
+$uno:1%;
+$dos:2%;
+#header{	
+	a {
+  	color:#bfbfbf ;
+	-webkit-transition: $trescien;
+	-moz-transition: $trescien;
+ 	-o-transition: $trescien;
+  	transition: $trescien; 
+  	}
+ 	a:hover {
+    outline: none;
+    text-decoration: none;
+    color: #dab074; 
+	}
+  	a:focus {
+    outline: none;
+    outline-offset: 0; 
+	}
+	#act{
+		margin-right: 10%;
+		margin-left: -20%;
+		color: #dab074;
+	}
+	.logo{
+		height: 2em;
+		margin-top: -10%;
+	}
+	.collapse{
+		ul{
+			margin-left: -$veinte;
+		}
+	}
+}
+#home-slider{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/TriangleTheme/images/home/slider-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+		.slider-circle1{
+			margin-top: 3em;
+		}
+		.slider-cycle{
+			margin-top: 65%;
+		}
+		.slider-cloud3{
+			margin-left:$cinco;
+			margin-top: -25%;
+		}
+		.slider-cloud2{
+			margin-left: 45%;
+			margin-top: $diez;
+		}
+		.slider-sun{
+			margin-left: 30%;
+		}
+		.slider-cloud1{
+			margin-top: $veinte;
+		}
+}
+#services{
+	margin-top: $cinco;
+	margin-bottom: $cinco;
+	.single-service{
+		h2{
+			color: $gris;
+		}
+	}
+}
+a{
+	color: #dab074;
+}
+#action{
+	background-image: url("/Users/Johana/Desktop/JohanaVargas/TriangleTheme/images/home/tour-bg.png");
+	padding: $uno;
+	h2{
+		font-size: xx-large;
+	}
+	.tour-button{
+		button{
+			background: transparent;
+			border: .1em solid  #dab074;
+			a{
+				color:black; 
+			}
+		}
+	}
+}
+#features{
+	.img-responsive{
+		margin-bottom: $cinco;
+	}
+}
+#clients{
+
+	.img-responsive{
+		margin-left: 45%;
+		margin-top: $cinco;
+	}
+	.clients{
+		margin-bottom: $cinco;
+	}
+}
+#footer{
+	.img-responsive{
+		margin-top: $dos;
+		width: 100%;
+	}
+	.form-control{
+		border:.1em solid #dab074;
+	}
+	h2{
+		margin-bottom: $veinte;
+	}
+	.btn-submit{
+		background-color: #dab074;
+		width: 100%;
+		color: white;
+	}
+}
+#bg-footer{
+	background-image: url("C:/Users/Johana/Desktop/JohanaVargas/TriangleTheme/images/home/footer.png");
+	height: 23em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:bottom;
+	.copyright-text{
+		margin-top: $diez;
+	}
+}

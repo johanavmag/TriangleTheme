@@ -1,0 +1,93 @@
+#header a {
+  color: #bfbfbf;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -o-transition: 300ms;
+  transition: 300ms; }
+#header a:hover {
+  outline: none;
+  text-decoration: none;
+  color: #dab074; }
+#header a:focus {
+  outline: none;
+  outline-offset: 0; }
+#header #act {
+  margin-right: 10%;
+  margin-left: -20%;
+  color: #dab074; }
+#header .logo {
+  height: 2em;
+  margin-top: -10%; }
+#header .collapse ul {
+  margin-left: -20%; }
+
+#home-slider {
+  background-image: url("C:/Users/Johana/Desktop/JohanaVargas/TriangleTheme/images/home/slider-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #home-slider .slider-circle1 {
+    margin-top: 3em; }
+  #home-slider .slider-cycle {
+    margin-top: 65%; }
+  #home-slider .slider-cloud3 {
+    margin-left: 5%;
+    margin-top: -25%; }
+  #home-slider .slider-cloud2 {
+    margin-left: 45%;
+    margin-top: 10%; }
+  #home-slider .slider-sun {
+    margin-left: 30%; }
+  #home-slider .slider-cloud1 {
+    margin-top: 20%; }
+
+#services {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+  #services .single-service h2 {
+    color: #a6a6a6; }
+
+a {
+  color: #dab074; }
+
+#action {
+  background-image: url("/Users/Johana/Desktop/JohanaVargas/TriangleTheme/images/home/tour-bg.png");
+  padding: 1%; }
+  #action h2 {
+    font-size: xx-large; }
+  #action .tour-button button {
+    background: transparent;
+    border: .1em solid  #dab074; }
+    #action .tour-button button a {
+      color: black; }
+
+#features .img-responsive {
+  margin-bottom: 5%; }
+
+#clients .img-responsive {
+  margin-left: 45%;
+  margin-top: 5%; }
+#clients .clients {
+  margin-bottom: 5%; }
+
+#footer .img-responsive {
+  margin-top: 2%;
+  width: 100%; }
+#footer .form-control {
+  border: .1em solid #dab074; }
+#footer h2 {
+  margin-bottom: 20%; }
+#footer .btn-submit {
+  background-color: #dab074;
+  width: 100%;
+  color: white; }
+
+#bg-footer {
+  background-image: url("C:/Users/Johana/Desktop/JohanaVargas/TriangleTheme/images/home/footer.png");
+  height: 23em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom; }
+  #bg-footer .copyright-text {
+    margin-top: 10%; }
+
+/*# sourceMappingURL=main.css.map */
